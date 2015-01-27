@@ -1,0 +1,14 @@
+{
+    "name": "hoppinger/rails-connector-theme",
+    "description": "Very basic WordPress theme to be used in a WordPress + Rails architecture.",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastiaan de Geus",
+            "email": "sebastiaan@hoppinger.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
