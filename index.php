@@ -18,7 +18,8 @@
 
 </head>
 
-  <body></body>
+  <body <?php body_class(); ?>>
+  </body>
 
   <?php wp_footer(); ?>
 
