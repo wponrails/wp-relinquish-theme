@@ -19,7 +19,8 @@
 </head>
 
   <body <?php body_class(); ?>>
-  </body>
+
+  <div id="body-classes" <?php body_class(); ?>></div>
 
   <?php wp_footer(); ?>
 
