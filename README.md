@@ -6,7 +6,7 @@ This [WordPress](http://wordpress.org) theme is to be used in conjunction with [
 For more information please refer to:
 
 * The [wp-relinquish](https://github.com/hoppinger/wp-relinquish) WordPress plugin.
-* The [wp-connector](https://github.com/hoppinger/wp-connector) Rails engine (gem).
+* The [wp-connector](https://github.com/hoppinger/wp-connector) gem for Ruby on Rails.
 
 
 ### Contributing
