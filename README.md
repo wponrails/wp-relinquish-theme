@@ -18,4 +18,4 @@ Please. You know the drill: create issue, fork, resolve issue, submit pull reque
 
 (c) Copyright 2015, Hoppinger B.V.
 
-MIT licensed, as found in the [LICENSE file](https://github.com/hoppinger/wp-relinquish/blob/master/LICENSE).
+MIT licensed, as found in the [LICENSE file](https://github.com/hoppinger/wp-relinquish-theme/blob/master/LICENSE).
