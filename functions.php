@@ -1,7 +1,5 @@
 <?php
 
-header('X-Frame-Options GOFORIT');
-
 function jf_template_path() {
   return Wrapper::$main_template;
 }
