@@ -36,3 +36,12 @@ class Wrapper {
   }
 }
 add_filter( 'template_include', array( 'Wrapper', 'jf_wrap' ), 99 );
+
+function relinquish_theme_home_url( $url, $path, $orig_scheme ) {
+  if ( ! defined('RELINQUISH_FRONTEND') ) {
+    return $url;
+  }
+
+  return RELINQUISH_FRONTEND;
+}
+add_filter( 'home_url', 'relinquish_theme_home_url', 10, 3 );
