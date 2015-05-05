@@ -1,5 +1,5 @@
 {
-    "name": "hoppinger/wp-relinquish-theme",
+    "name": "wponrails/wp-relinquish-theme",
     "description": "Very basic WordPress theme to be used in a WordPress + Rails architecture.",
     "type": "wordpress-theme",
     "license": "MIT",
