@@ -36,17 +36,3 @@ class Wrapper {
   }
 }
 add_filter( 'template_include', array( 'Wrapper', 'jf_wrap' ), 99 );
-
-function relinquish_theme_home_url( $url, $path, $orig_scheme ) {
-  // keep the normal home_url for the APIs
-  if ( isset( $_GET['adminbar'] ) || isset( $_GET['json_route'] ) ) {
-    return $url;
-  }
-
-  if ( ! defined('RELINQUISH_FRONTEND') ) {
-    return $url;
-  }
-
-  return RELINQUISH_FRONTEND;
-}
-add_filter( 'home_url', 'relinquish_theme_home_url', 10, 3 );
