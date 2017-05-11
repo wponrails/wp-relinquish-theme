@@ -36,3 +36,13 @@ class Wrapper {
   }
 }
 add_filter( 'template_include', array( 'Wrapper', 'jf_wrap' ), 99 );
+
+function relinquish_theme_home_page_url( $link, $post ) {
+    $post = get_post($post);
+
+    if ( 'page' == get_option( 'show_on_front' ) && $post->ID == get_option( 'page_on_front' ) && defined('RELINQUISH_FRONTEND') )
+        $link = RELINQUISH_FRONTEND;
+
+    return $link;
+}
+add_filter('page_link', 'relinquish_theme_home_page_url');
