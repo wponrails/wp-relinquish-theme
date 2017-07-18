@@ -45,4 +45,4 @@ function relinquish_theme_home_page_url( $link, $post ) {
 
     return $link;
 }
-add_filter('page_link', 'relinquish_theme_home_page_url');
+add_filter('page_link', 'relinquish_theme_home_page_url', 10, 2);
